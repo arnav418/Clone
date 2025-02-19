@@ -1,0 +1,431 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    height: 260vh;
+    width: 100vw;
+}
+
+.navbar{
+    /* background-color: aqua; */
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    width:968px;
+    margin: auto;
+}
+
+.logo img{
+    height: 4.5rem;
+    border-radius: 50%;
+    transition: .5s all linear 0s;
+}
+
+.logo img:hover{
+    transform: scale(1.2);
+    border: 4px solid red;
+}
+
+
+.nav-items a{
+    text-decoration: none;
+    font-family: Poppins;
+    margin-right: 8px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(67, 37, 175);
+    transition: .5s all linear 0s;
+}
+
+.nav-items a:hover{
+    color:chocolate ;
+    text-decoration:underline;
+
+}
+
+.support-btn button{
+    font-size: .95rem;
+    font-weight: 100;
+    color: white;
+    height: 30px;
+    font-family: Poppins;
+    font-weight: 500;
+    width: 100px;
+    border-radius: 8px;
+    border: none;
+    background-color:darkslateblue;
+    padding: 3px 5px;
+    transition: .5s all 0s;
+}
+
+.support-btn button:hover{
+    transform: scale(1.2);
+
+}
+.hero-sec{
+    height: 60vh;
+    width: 958px;
+    margin: 40px auto;
+    /* background-color:rgb(221, 153, 153); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* Hero-sec starts here */
+
+.contentbox-1{
+    height: 60%;
+    width:50%;
+    /* background-color: yellow; */
+    padding-left: 20px;
+}
+
+#subhead{
+    color:rgb(137, 18, 170);
+    font-weight: 600;
+    font-family: Poppins;
+}
+
+#head1{
+    font-family: Poppins;
+    line-height: 2.5rem;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+
+}
+
+#paracon{
+    margin-top: 25px;
+    font-size: 1em;
+    color:gray;
+}
+
+.button{
+    /* background-color: red; */
+    margin-top: 25px;
+}
+
+#btn1{
+    font-size: .95rem;
+    font-weight: 100;
+    color: white;
+    height: 30px;
+    font-family: Poppins;
+    width: 100px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    background-color:darkslateblue;
+    padding: 3px 5px;
+    transition: .5s all 0s;
+}
+
+#btn1:hover{
+    transform: scale(1.2);
+}
+#btn2{
+    font-size: .95rem;
+    font-family: Poppins;
+    font-weight: 500;
+    color: white;
+    height: 30px;
+    margin-left: 10px;
+    width: 100px;
+    border-radius: 8px;
+    border: none;
+    background-color:grey;
+    padding: 3px 5px;
+    transition: .5s all 0s;
+}
+
+#btn2:hover{
+    rotate:360deg ;
+}
+
+
+.contentbox-2{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+
+.contentbox-2 img{
+    height: 399px;
+    width:480px;
+    border-radius: 10px;
+
+}
+
+
+.new-section{
+    /* background-color: yellow; */
+    height: 35vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.subheading{
+    /* background-color: orange; */
+    width: 958px;
+    height: 10vh;
+}
+
+.subheading h2{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: Poppins;
+}
+
+.logo-hub{
+    background-color:rgb(171, 166, 166);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    width: 475px;
+    /* width: 100%; */
+}
+
+#logo1{
+    height:50px;
+}
+
+#logo2{
+    height: 40px;
+}
+
+#logo3{
+    height: 50px;
+}
+
+#logo4{
+    height: 45px;
+}
+
+.new-section2{
+    /* background-color: red; */
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+}
+
+#sec-2head{
+    font-family: Poppins;
+}
+
+#sec-2para{
+    font-family: Poppins;
+    max-width: 938px;
+    margin: 16px auto;
+}
+
+.cards-container{
+    width: 888px;
+    height: 110vh;
+    /* background-color: yellow; */
+    /* overflow: hidden; */
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 12px;  
+}
+
+.card{
+    height: 230px;
+    /* width: 100px; */
+    background-color:#D91656;
+    /* border: 2px solid black; */
+    width: 100%;
+    border-radius: 12px;
+    gap: 15px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+#card-img{
+    height: 60px;
+    width: 60px;
+}
+
+#card-head{
+    font-family: Poppins;
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+#card-para{
+    color: white;
+    font-family: Poppins;
+    font-size: 15px;
+    /* width: 90%; */
+    text-align: center;
+}
+
+
+.container-2{
+    /* background-color: red; */
+    margin-top: 20px;
+    height: 100vh;
+    width: 100vw;
+}
+
+#con2-head{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.7rem;
+    color:black;
+}
+
+.feed-container{
+    /* background-color: Yellow; */
+    width: 76%;
+    height: 40vh;
+    margin: 20px auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.feed1{
+    height: 250px;
+    /* width:33%; */
+    background-color:#F7F7F7;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+#feed-para{
+    text-align: center;
+    padding: 6px 20px;
+    font-size: 1em;
+    font-family: Poppins;
+    /* background-color: #D91656; */
+}
+
+.feed-con{
+    /* background-color: blue; */
+    height:64%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#feed-img{
+    height: 60px;
+    /* background-color: blue; */
+}
+
+#feed-name{
+    color:darkslateblue ;
+    font-family: Poppins;
+}
+
+#feed-prof{
+    font-family: Poppins;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.foot-card{
+    height: 40vh;
+    width:950px;
+    margin: 50px auto;
+    background-color:#B3C8CF;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    /* background-color: pink; */
+    height: 100%;
+    background-image: url(astronaut-galaxy-sea-desktop-wallpaper-4k.jpg);
+    background-size: cover;
+    background-blend-mode:hard-light;
+}
+
+.right{
+    display: flex;
+    padding: 0px 20px;
+    flex-direction: column;
+    width: 50%;
+    /* gap: 5px; */
+    justify-content: center;
+}
+
+#right-head{
+    font-family: Poppins;
+    color:darkslateblue;
+}
+
+#right-para{
+    font-family: Poppins;
+    margin-top: -10px;
+}
+
+.right-con{
+    /* background-color: orange; */
+    margin-top: 10px;
+}
+
+.right-con input{
+    height: 29px;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: .8em;
+    font-family: Poppins;
+}
+
+.right-con button{
+    height: 29px;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 6px;
+    margin-left: 6px;
+    font-size: .8em;
+    color: white;
+    font-family: Poppins;
+    background-color:darkslateblue;
+}
+
+#right-para2{
+    font-size: 10px;
+    margin-top: 15px;
+    width: 84%;
+    font-family: Poppins;
+}
+
+.footer{
+    background-color: rgb(141, 136, 136);
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items:center;
+    font-size: 1.5rem;
+    justify-content: center;
+}
